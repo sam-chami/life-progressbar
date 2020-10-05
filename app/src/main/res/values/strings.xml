@@ -1,0 +1,58 @@
+<resources>
+    <string name="app_name" translatable="false">"Live progressbar"</string>
+    <string name="title_activity_settings">Ajustes</string>
+
+    <integer name="progress">83</integer>
+    <string name="add_widget">Add widget</string>
+    <string name="tic_tac">Tic Tac</string>
+    <string name="edad">Nacimiento</string>
+    <string name="si">Sí</string>
+    <string name="fumaba_mucho">Fumaba Mucho</string>
+    <string name="macho">Macho</string>
+    <string name="hembra">Hembra</string>
+    <string name="salir_y_guardar">Guardar y Salir</string>
+    <string name="tengo_diabetes">Tengo diabetes</string>
+    <string name="tengo_problemas_de_coraz_n">Tengo problemas de corazón</string>
+    <string name="date_format">Mes/Año</string>
+    <string name="bebes">¿Bebes?</string>
+    <string name="altura">Altura</string>
+    <string name="fumaba_poco">Fumaba Poco</string>
+    <string name="peso">Peso</string>
+    <string name="fumas">¿Fumas?</string>
+    <string name="no">No</string>
+    <string name="about">Información</string>
+    <string name="salir">Salir</string>
+
+    <string name="R1">Recomendación: Haz ejercicio todos los días</string>
+    <string name="R2">Recomendación: Usa las escaleras</string>
+    <string name="R3">Recomendación: No tomes alcohol</string>
+    <string name="R4">Recomendación: No fumes</string>
+    <string name="R5">Recomendación: Come más fruta y verdura</string>
+    <string name="R6">Recomendación: Evita la comida basura</string>
+    <string name="R7">Recomendación: Bebe Agua</string>
+    <string name="R8">Recomendación: Se feliz</string>
+    <string name="R9">Recomendación: Duerme por lo menos 8 horas al día</string>
+    <string name="R10">Recomendación: Evita el sedentarismo</string>
+    <string name="R11">Recomendación: Evita el estrés</string>
+    <string name="R12">Recomendación: Vacunate contra enfermedades peligrosas</string>
+    <string name="R13">Recomendación: Sé higíenico</string>
+    <string name="R14">Recomendación: Sométete a revisiones médicas</string>
+    <string name="R15">Recomendación: Cuida tu salud mental</string>
+    <string name="R16">Recomendación: Lábate las manos</string>
+    <string name="P17">Recomendación: Añade el widget LiveProgessbar a la pantalla de inicio</string>
+    <string name="P18">Recomendación: ¡Escribe una reseña de 5 estrellas en Google Play! 😉</string>
+    <string name="P19">Recomendación: Envía tus sugerencias a samasasamu@protonmail.com</string>
+    <string name="eres_feliz">¿Eres Feliz?</string>
+    <string name="conduces">¿Conduces?</string>
+    <string name="mucho">Mucho</string>
+    <string name="un_poco">Un poco</string>
+    <string name="cent_metros">Centímetros</string>
+    <string name="siguiente">Siguiente</string>
+
+    <string name="info">Live progressbar es una aplicación que te ayuda a manejar tu tiempo (o a deprimirte) recordándote, cada vez que usas el teléfono, cuanto tiempo de vida te queda.</string>
+    <string name="developed_by">Desarollado por Samuel Menéndez</string>
+
+    <string name="share_text">¡Prueba esta app! http://bit.ly/getLiveProgressbar</string>
+    <string name="share">Compartir</string>
+
+</resources>

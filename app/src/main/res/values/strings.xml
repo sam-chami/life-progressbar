@@ -1,58 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name" translatable="false">"Live progressbar"</string>
-    <string name="title_activity_settings">Ajustes</string>
+
+    <string name="app_name" translatable="false">"Life progressbar"</string>
 
     <integer name="progress">83</integer>
+    <string name="title_activity_settings">Settings</string>
     <string name="add_widget">Add widget</string>
-    <string name="tic_tac">Tic Tac</string>
-    <string name="edad">Nacimiento</string>
-    <string name="si">Sí</string>
-    <string name="fumaba_mucho">Fumaba Mucho</string>
-    <string name="macho">Macho</string>
-    <string name="hembra">Hembra</string>
-    <string name="salir_y_guardar">Guardar y Salir</string>
-    <string name="tengo_diabetes">Tengo diabetes</string>
-    <string name="tengo_problemas_de_coraz_n">Tengo problemas de corazón</string>
-    <string name="date_format">Mes/Año</string>
-    <string name="bebes">¿Bebes?</string>
-    <string name="altura">Altura</string>
-    <string name="fumaba_poco">Fumaba Poco</string>
-    <string name="peso">Peso</string>
-    <string name="fumas">¿Fumas?</string>
+    <string name="tic_tac">Tic Tac...</string>
+    <string name="edad">Birth Date</string>
+    <string name="si">Yes</string>
+    <string name="fumaba_mucho">I did (A lot)</string>
+    <string name="macho">Boy</string>
+    <string name="hembra">Girl</string>
+    <string name="salir_y_guardar">Save and exit</string>
+    <string name="tengo_diabetes">I have diabetes</string>
+    <string name="tengo_problemas_de_coraz_n">I have hearth problems</string>
+    <string name="date_format">Month/Year</string>
+    <string name="bebes">Alcohol?</string>
+    <string name="altura">Height</string>
+    <string name="fumaba_poco">I Did</string>
+    <string name="peso">Weight</string>
+    <string name="fumas">Smoke?</string>
     <string name="no">No</string>
-    <string name="about">Información</string>
-    <string name="salir">Salir</string>
-
-    <string name="R1">Recomendación: Haz ejercicio todos los días</string>
-    <string name="R2">Recomendación: Usa las escaleras</string>
-    <string name="R3">Recomendación: No tomes alcohol</string>
-    <string name="R4">Recomendación: No fumes</string>
-    <string name="R5">Recomendación: Come más fruta y verdura</string>
-    <string name="R6">Recomendación: Evita la comida basura</string>
-    <string name="R7">Recomendación: Bebe Agua</string>
-    <string name="R8">Recomendación: Se feliz</string>
-    <string name="R9">Recomendación: Duerme por lo menos 8 horas al día</string>
-    <string name="R10">Recomendación: Evita el sedentarismo</string>
-    <string name="R11">Recomendación: Evita el estrés</string>
-    <string name="R12">Recomendación: Vacunate contra enfermedades peligrosas</string>
-    <string name="R13">Recomendación: Sé higíenico</string>
-    <string name="R14">Recomendación: Sométete a revisiones médicas</string>
-    <string name="R15">Recomendación: Cuida tu salud mental</string>
-    <string name="R16">Recomendación: Lábate las manos</string>
-    <string name="P17">Recomendación: Añade el widget LiveProgessbar a la pantalla de inicio</string>
-    <string name="P18">Recomendación: ¡Escribe una reseña de 5 estrellas en Google Play! 😉</string>
-    <string name="P19">Recomendación: Envía tus sugerencias a samasasamu@protonmail.com</string>
-    <string name="eres_feliz">¿Eres Feliz?</string>
-    <string name="conduces">¿Conduces?</string>
-    <string name="mucho">Mucho</string>
-    <string name="un_poco">Un poco</string>
-    <string name="cent_metros">Centímetros</string>
-    <string name="siguiente">Siguiente</string>
-
-    <string name="info">Live progressbar es una aplicación que te ayuda a manejar tu tiempo (o a deprimirte) recordándote, cada vez que usas el teléfono, cuanto tiempo de vida te queda.</string>
-    <string name="developed_by">Desarollado por Samuel Menéndez</string>
-
-    <string name="share_text">¡Prueba esta app! http://bit.ly/getLiveProgressbar</string>
-    <string name="share">Compartir</string>
-
+    <string name="about">About</string>
+    <string name="salir">Exit</string>
+    <string name="R1">Recommendation: Exercise every day</string>
+    <string name="R2">Recommendation: Use stairs instead of elevators</string>
+    <string name="R3">Recommendation: Don\'t drink alcohol</string>
+    <string name="R4">Recommendation: Don\'t smoke</string>
+    <string name="R5">Recommendation: Eat more Fruit and Vegetable</string>
+    <string name="R6">Recommendation: Avoid trash food</string>
+    <string name="R7">Recommendation: Drink water</string>
+    <string name="R8">Recommendation: Be happy</string>
+    <string name="R9">Recommendation: Sleep at least 8 hours a day</string>
+    <string name="R10">Recommendation: Avoid sedentarism</string>
+    <string name="R11">Recommendation: Avoid stress</string>
+    <string name="R12">Recommendation: Get vaccinated to combat viruses</string>
+    <string name="R13">Recommendation: Be higienic</string>
+    <string name="R14">Recommendation: Go to the doctor</string>
+    <string name="R15">Recommendation: Take care of your mental health</string>
+    <string name="R16">Recommendation: Wash your hands</string>
+    <string name="P17">Recommendation: Add LifeProgressbar widget to the home screen</string>
+    <string name="P18">Recommendation: Write your five star review in the play store! 😉</string>
+    <string name="P19">Recommendation: Send your suggest to samasasamu@protonmail.com</string>
+    <string name="eres_feliz">Are you happy?</string>
+    <string name="conduces">Do you Drive?</string>
+    <string name="mucho">A lot</string>
+    <string name="un_poco">A bit</string>
+    <string name="cent_metros">Centimeters</string>
+    <string name="siguiente">Next</string>
+    <string name="info">Life progressbar is an application that helps you manage your time (or get depressed) by reminding you, every time you use the phone, how much time to life you have left.</string>
+    <string name="developed_by">Developed by Samuel Menendez</string>
+    <string name="share_text">Try this App! http://bit.ly/getLifeProgressbar</string>
+    <string name="share">Share</string>
 </resources>

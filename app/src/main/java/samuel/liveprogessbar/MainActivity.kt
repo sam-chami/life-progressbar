@@ -152,7 +152,7 @@ class MainActivity : AppCompatActivity() {
             true
         }
         id.menu_exit -> {
-            finish()
+            finishAffinity()
             true
         }
         else -> {

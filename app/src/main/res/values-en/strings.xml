@@ -36,7 +36,7 @@
     <string name="R14">Recommendation: Go to the doctor</string>
     <string name="R15">Recommendation: Take care of your mental health</string>
     <string name="R16">Recommendation: Wash your hands</string>
-    <string name="P17">Recommendation: Add LiveProgressbar widget to the home screen</string>
+    <string name="P17">Recommendation: Add LifeProgressbar widget to the home screen</string>
     <string name="P18">Recommendation: Write your five star review in the play store! 😉</string>
     <string name="P19">Recommendation: Send your suggest to samasasamu@protonmail.com</string>
     <string name="eres_feliz">Are you happy?</string>
@@ -45,8 +45,8 @@
     <string name="un_poco">A bit</string>
     <string name="cent_metros">Centimeters</string>
     <string name="siguiente">Next</string>
-    <string name="info">Live progressbar is an application that helps you manage your time (or get depressed) by reminding you, every time you use the phone, how much time to live you have left.</string>
+    <string name="info">Life progressbar is an application that helps you manage your time (or get depressed) by reminding you, every time you use the phone, how much time to life you have left.</string>
     <string name="developed_by">Developed by Samuel Menendez</string>
-    <string name="share_text">Try this App! http://bit.ly/getLiveProgressbar</string>
+    <string name="share_text">Try this App! http://bit.ly/getLifeProgressbar</string>
     <string name="share">Share</string>
 </resources>

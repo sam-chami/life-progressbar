@@ -72,7 +72,7 @@ class SettingsActivity : AppCompatActivity() {
 
         editor.commit()
 
-        val intent = Intent(this, MainActivity::class.java).apply {}; startActivity(intent)
+        finish()
     }
 
     fun calculateAge(): Float {

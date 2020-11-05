@@ -53,4 +53,5 @@
     <string name="developed_by">Developed by Samuel Menendez</string>
     <string name="share_text">Try this App! http://bit.ly/getLifeProgressbar</string>
     <string name="share">Share</string>
+    <string name="per_week">Per week</string>
 </resources>

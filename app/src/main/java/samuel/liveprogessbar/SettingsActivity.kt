@@ -22,20 +22,23 @@ class SettingsActivity : AppCompatActivity() {
 
         val pref = PreferenceManager.getDefaultSharedPreferences(getApplicationContext());
 
-        HeightVal.setText(pref.getFloat("Height", 0F).roundToInt().toString())
-        WeightVal.setText(pref.getInt("Weight", 0).toString())
-        smokebar.progress = pref.getInt("Smoke", 0)
-        smokebar2.progress = pref.getInt("Beer", 0)
-        smokebar3.progress = pref.getInt("Drive", 0)
-        smokebar4.progress = pref.getInt("Happy", 0)
+        val isFirstRun = pref.getBoolean("isFirstRun", true)
+        if (!isFirstRun){
+            HeightVal.setText(pref.getFloat("Height", 0F).roundToInt().toString())
+            WeightVal.setText(pref.getInt("Weight", 0).toString())
+            smokebar.progress = pref.getInt("Smoke", 0)
+            smokebar2.progress = pref.getInt("Beer", 0)
+            smokebar3.progress = pref.getInt("Drive", 0)
+            smokebar4.progress = pref.getInt("Happy", 0)
 
-        diabetes.isChecked = pref.getBoolean("Diabetes", false)
-        hearthproblem.isChecked = pref.getBoolean("Corazon", false)
-        yearVal.setText(pref.getString("BYear", "1/1999"))
+            diabetes.isChecked = pref.getBoolean("Diabetes", false)
+            hearthproblem.isChecked = pref.getBoolean("Corazon", false)
+            yearVal.setText(pref.getString("BYear", "1/1999"))
 
-        sex = pref.getInt("sex", 0)
-        if (sex == 0){ ma_btn.setBackgroundColor(ContextCompat.getColor(applicationContext, R.color.colorAccent)); fe_btn.setBackgroundColor(ContextCompat.getColor(applicationContext, R.color.normalBtn)) }
-        if (sex == 1){ fe_btn.setBackgroundColor(ContextCompat.getColor(applicationContext, R.color.colorAccent)); ma_btn.setBackgroundColor(ContextCompat.getColor(applicationContext, R.color.normalBtn)) }
+            sex = pref.getInt("sex", 0)
+            if (sex == 0){ ma_btn.setBackgroundColor(ContextCompat.getColor(applicationContext, R.color.colorAccent)); fe_btn.setBackgroundColor(ContextCompat.getColor(applicationContext, R.color.normalBtn)) }
+            if (sex == 1){ fe_btn.setBackgroundColor(ContextCompat.getColor(applicationContext, R.color.colorAccent)); ma_btn.setBackgroundColor(ContextCompat.getColor(applicationContext, R.color.normalBtn)) }
+        }
 
     }
 
@@ -70,10 +73,12 @@ class SettingsActivity : AppCompatActivity() {
         editor.putInt("sex", sex)
         editor.putInt("age", calculateAge().roundToInt())
 
+        editor.putBoolean("isFirstRun", false)
+
         editor.commit()
 
-        finish()
-    }
+        val intent = Intent(this, MainActivity::class.java).apply{}
+        startActivity(intent)    }
 
     fun calculateAge(): Float {
 
@@ -93,6 +98,12 @@ class SettingsActivity : AppCompatActivity() {
         val age = (now - birth) / 12
 
         return age
+    }
+
+    override fun onBackPressed() {
+        // Put your own code here which you want to run on back button click.
+        finishAffinity()
+        super.onBackPressed()
     }
 
     private fun liveExpenctacy(): Int {

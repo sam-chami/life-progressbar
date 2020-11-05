@@ -52,5 +52,6 @@
 
     <string name="share_text">¡Prueba esta app! http://bit.ly/getLifeProgressbar</string>
     <string name="share">Compartir</string>
+    <string name="per_week">Por semana</string>
 
 </resources>

@@ -32,7 +32,7 @@
             </intent-filter>
         </activity>
         <!-- Sample AdMob App ID: ca-app-pub-3940256099942544~3347511713 -->
-        <!-- My AdMob App ID: ca-app-pub-9143672092991466/1170851601 -->
+        <!-- My AdMob App ID: ca-app-pub-9143672092991466~7189465041 -->
         <meta-data
             android:name="com.google.android.gms.ads.APPLICATION_ID"
             android:value="ca-app-pub-9143672092991466~7189465041"/>

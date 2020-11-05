@@ -3,13 +3,12 @@ package samuel.liveprogessbar
 import android.appwidget.AppWidgetManager
 import android.appwidget.AppWidgetProvider
 import android.content.Context
-import android.view.View
+import android.content.Intent
 import android.widget.RemoteViews
-import androidx.core.content.res.TypedArrayUtils.getText
+import android.widget.Toast
+import androidx.core.content.ContextCompat.startActivity
 import androidx.preference.PreferenceManager
 import samuel.liveprogessbar.helpers.AgeUpdater
-import samuel.liveprogessbar.helpers.Notifications
-import samuel.liveprogessbar.R.string.*
 
 
 /**
@@ -33,8 +32,8 @@ class ProgressbarWidget : AppWidgetProvider() {
     private fun progressSet(context: Context, appWidgetManager: AppWidgetManager, appWidgetId: Int){
         R.integer.progress
         val pref = PreferenceManager.getDefaultSharedPreferences(context.applicationContext);
-        var age = (pref.getInt("age", 0))
-        val lifeTm = (pref.getInt("lifetm", 83))
+        var age = (pref.getInt("age", 0))+1
+        var lifeTm = (pref.getInt("lifetm", 83))
 
         val updateAge = AgeUpdater()
         updateAge.sendData(context)
@@ -56,6 +55,7 @@ class ProgressbarWidget : AppWidgetProvider() {
         // Enter relevant functionality for when the last widget is disabled
 
     }
+
 }
 
 internal fun updateAppWidget(

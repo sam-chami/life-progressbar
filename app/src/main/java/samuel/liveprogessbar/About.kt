@@ -17,6 +17,11 @@ class About : AppCompatActivity() {
         inflater.inflate(R.menu.menu, menu)
         return true
     }
+    override fun onBackPressed() {
+        // Put your own code here which you want to run on back button click.
+        finishAffinity()
+        super.onBackPressed()
+    }
     override fun onOptionsItemSelected(item: MenuItem) = when (item.itemId) {
         R.id.menu_settings -> {
             val intent = Intent(this, SettingsActivity::class.java).apply{}

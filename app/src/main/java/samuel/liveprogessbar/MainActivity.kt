@@ -1,12 +1,15 @@
 package samuel.liveprogessbar
 
-import android.app.*
+import android.app.Notification
+import android.app.NotificationChannel
+import android.app.NotificationManager
 import android.content.DialogInterface
 import android.content.Intent
 import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
 import android.view.View
+import android.widget.Toast
 import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.app.NotificationManagerCompat
@@ -20,6 +23,7 @@ import samuel.liveprogessbar.R.layout
 import samuel.liveprogessbar.R.string.*
 import samuel.liveprogessbar.helpers.Notifications
 import kotlin.random.Random
+
 
 class MainActivity : AppCompatActivity() {
 
@@ -133,6 +137,11 @@ class MainActivity : AppCompatActivity() {
         val shareIntent = Intent.createChooser(sendIntent, null)
         startActivity(shareIntent)
 
+    }
+    override fun onBackPressed() {
+        // Put your own code here which you want to run on back button click.
+        finishAffinity()
+        super.onBackPressed()
     }
 
     // actions on click menu items

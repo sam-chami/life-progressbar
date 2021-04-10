@@ -1,14 +1,15 @@
 # Life Progressbar
 
-**Life progressbar** is an application that helps you manage your time (or get depressed) by reminding you, through a progress bar, how much time you have left (and how much you have wasted (; ). With the life expectancy calculator life to know how many years are left You can update your health data in the 'settings' section.
+**Life progressbar** is an application that helps you manage your time (or get depressed) by reminding you, through a progress bar, how much time you have left (and how much you have wasted (; ). With the life expectancy calculator you'll know how many years you have left. You can update your health data in the 'settings' section.
 
 Star features of **Life Progressbar**:
-    * Progress bar that will remind you of your life expectancy
-    * Health Recommendations.
-    * Life expectancy calculator.
-    * Widget for the home screen
-    * More ...
-    
+* Progress bar that will remind you of your life expectancy
+* Health Recommendations.
+* Life expectancy calculator.
+* Widget for the home screen
+
+ And More ...
+
 # Where to get it
 
 You can download the apk here:

@@ -101,7 +101,6 @@ class SettingsActivity : AppCompatActivity() {
     }
 
     override fun onBackPressed() {
-        // Put your own code here which you want to run on back button click.
         finishAffinity()
         super.onBackPressed()
     }
